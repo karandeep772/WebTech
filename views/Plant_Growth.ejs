@@ -1,0 +1,777 @@
+
+<!Doctype html>
+<HTML lang="en">
+    <head>
+        <style>
+            body{
+                margin:0px;
+            }
+            .button1 {
+                position:absolute;
+                right: 1125px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button2 {
+                position:absolute;
+                right: 950px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+
+            }
+            .button3 {
+                position:absolute;
+                right: 765px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+
+            }
+            .button4 {
+                position:absolute;
+                right:550px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button5 {
+                position:absolute;
+                right: 400px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button6 {
+                position:absolute;
+                right: 150px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button7 {
+                position:absolute;  
+                right: 0px;
+                cursor: pointer;
+                margin-top: 20px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                margin-right: 125px;
+            }
+            .button8 {
+                position:absolute;
+                right:139px;
+                cursor: pointer;
+                margin-top: 35px;
+            } 
+            .button9 {
+                position:absolute;
+                right:8px;
+                cursor: pointer;
+                margin-top: 35px;
+            }
+            .button10 {
+                position:absolute;  
+                right: 10px;
+                cursor: pointer;
+                margin-top: 20px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                margin-right: 20px;
+            } 
+            .Logo1 {
+                height: 70px;
+                width: 110px;
+                margin:2px;
+                margin-left:50px ;
+                margin-top: 14px;
+                border-radius: 20px;
+                border:1px solid black;
+                position: absolute;
+            }
+            header{
+                background-color: aqua;
+                height:100px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                margin-top:50px; 
+            }
+            .animate-charcter{
+                text-transform: uppercase;
+                background-image: linear-gradient(
+                -225deg,
+                #231557 0%,
+                #44107a 29%,
+                #ff1361 67%,
+                #fff800 100%
+                );
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                color: #fff;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+                display: inline-block;
+                font-size: 28px;
+                margin-top: 22px;
+                margin-bottom: 10px;
+                margin-left: 505px;
+                position:absolute;
+            }
+
+            @keyframes textclip {
+                to {
+                background-position: 200% center;
+                }
+            }
+
+            body {
+                display: absolute;
+                align-items: center;
+                justify-content: center;
+            }
+            h1 {
+                color: #160404;
+                font-family: tahoma;
+                font-size: 28px;
+                text-transform: uppercase;
+                overflow: hidden;
+                position: absolute;
+                width: 575px;
+                margin-left: 575px;
+                margin-top: 20px;
+            }
+
+            h1 span {
+                font-size: 28px;
+                margin-left: 115px;
+                margin-top: 20px;
+            }
+
+            .message {
+                background-color: rgb(244, 228, 84);
+                color: #333;
+                display: block;
+                font-weight: 900px;
+                overflow: hidden;
+                font-size:28px;
+                position: absolute;
+                left: 350px;
+                animation: openclose 5s ease-in-out infinite;
+            }
+
+            .word1, .word2, .word3 {
+                font-family: tahoma;
+            }
+
+            @keyframes openclose {
+                0% {
+                    top: 0rem;
+                    width: 0;
+                }
+                5% {
+                    width: 40px;
+                }
+                15% {
+                    width: 100px;
+                }
+                30% {
+                    top: 0rem;
+                    width: 160px;
+                }
+                33% {       
+                    top: 0rem;
+                    width: 0;
+                }
+                35% {
+                    top: 0rem;
+                    width: 0;
+                }
+                38% {
+                top: -2.1rem;
+    
+                }
+                48% {
+                    top: -2.1rem;
+                    width: 100px;
+                }
+                62% {
+                    top: -2.1rem;
+                    width: 200px;
+                }
+                66% {
+                    top: -2.1rem;
+                    width: 0;
+                    text-indent: 0;
+                }
+                68% {
+                    top: -2.1rem;   
+                    width: 0;
+                    text-indent: 0;
+                }
+                71% {
+                    top: -4.2rem;
+                    width: 0;
+                }
+                80% {
+                    top: -4.2rem;
+                    width: 100px;
+                }
+                95% {
+                    top: -4.2rem;
+                    width: 200px;
+                }
+                98% {
+                    top: -4.2rem;
+                    width: 0;
+                }
+                100% {
+                    top: 0;
+                    width: 0;
+                }
+                }   
+                .homelogo {
+                    height: 21px;
+                    width: 21px;
+                    border-radius: 20px;
+                }
+                .abtlogo{
+                    height: 21px;
+                    width: 21px;
+                }
+                .input{
+                    width:500px;
+                    height:25px;
+                    float:right;
+                    margin-right: 70px;
+            }
+            .H1{
+                margin-left:580px;
+                font-size:px;
+                margin-top: 20px;
+            }
+            .search{
+                float:right;
+                margin-top: 40px;
+                margin-right: -47px;;
+            }
+            box{
+                border:2px solid black;
+            }
+            .tractors{
+                border:none;
+                border:1px solid rgb(205, 204, 204);
+                margin: 8px;
+                padding: 0px;
+                background-color: white;
+                margin-left: 0px;
+            }
+            main{
+                margin-left: 130px;
+                margin-top: 50px;
+            }
+            .butimage{
+                padding:0px;
+                margin: 0px;
+            }
+            .book{
+                background-color: rgb(71, 71, 245);
+                height: 30px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+            .book1{
+                margin-bottom: 0px;;
+                margin-top: -20px;
+            }
+            .text:hover{
+                  color:red;
+                  cursor:pointer;
+            }
+            button{
+                cursor: pointer;
+            }
+            .book:hover
+            {
+                background-color: rgb(251, 41, 41);
+            }
+
+            @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+        .waviy {
+                
+                font-size: 20px;
+                margin-top: -10x;
+
+            }
+            .waviy span {
+                font-family: 'Alfa Slab One', simple;
+                position: relative;
+                display: inline-block;
+                color: black;
+                text-transform: uppercase;
+                animation: waviy 1.25s infinite;
+                animation-delay: calc(.1s * var(--i));
+            }
+            @keyframes waviy {
+                0%,50%,100% {
+                transform: translateY(0)
+            }
+                50% {
+                transform: translateY(-20px)
+            }
+            }
+            
+            .growth{
+                    background-color: rgb(54, 217, 45);
+                    height: 100px;
+                    text-align: center;
+                    color:white;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    width: 1520px;
+                 }
+                 abcd{
+                    display: flex;
+                    margin-top: 100px;
+
+                }
+                .para2{
+                    text-align: center;
+                    margin-left: 100px;
+                    margin-right:100px ;
+                    font-size: larger;
+                    margin-top: 75px;
+                }
+                .para1{
+                    text-align: left;
+                    margin-left: 100px;
+                    margin-right:100px ;
+                    font-size: larger;
+                    margin-top: 30px;
+                }
+                .foot{
+                    background-color: rgb(255, 151, 16) ;
+                    height: 30px;
+                    margin-bottom: 0px;
+                }
+                .par{
+                    text-align: center;
+                    margin-left: 100px;
+                    margin-right:100px ;
+                    font-size: larger;
+                    margin-top: 30px;
+                }
+                
+            
+            .HarButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+
+            .Harvbar {
+                
+                right: 760px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .HarvContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .HarvContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .HarvContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Harvbar:hover .HarvContent {
+                display: block;
+            }
+
+            .Harvbar:hover .HarButton {
+                background-color: #3e8e41;
+            }
+            
+            .ImpleButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            
+            .Implebar {
+                
+                right: 550px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .ImpleContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .ImpleContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .ImpleContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Implebar:hover .ImpleContent {
+                display: block;
+            }
+
+            .Implebar:hover .ImpleButton {
+                background-color: #3e8e41;
+            }
+
+            .TracButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            
+            .Tracbar {
+                
+                right: 400px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .TracContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .TracContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .TracContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Tracbar:hover .TracContent {
+                display: block;
+            }
+
+            .Tracbar:hover .TracButton {
+                background-color: #3e8e41;
+            }
+
+            .PlantButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            
+            .Plantbar {
+                
+                right: 150px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .PlantContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .PlantContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .PlantContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Plantbar:hover .PlantContent {
+                display: block;
+            }
+
+            .Plantbar:hover .PlantButton {
+                background-color: #3e8e41;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <title>
+            Main Page
+            </title>
+            <link rel="icon" href="Logo.jpg">
+        </head>
+    <body>
+            <div>
+                <div>
+                    <div">
+                        <h3 class="animate-charcter"> Farm Tech:</h3>
+                <h1>
+                    <span>Lend/Borrow</span>
+                    <div class="message">
+                      <div class="word1">Tractors</div>
+                      <div class="word2">Implements</div>
+                      <div class="word3">Harvestors</div>
+                    </div>
+                  </h1>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="Login">
+                <button class="button7" type="button">
+                <b> 
+                <font size="4" style="font-family:verdana">
+                    Login
+                </font>
+                </b>
+                </button>
+            </a>&nbsp;
+                        <a href="Register">
+                <button class="button10" type="button">
+                <b> 
+                <font size="4" style="font-family:verdana">
+                    Sign in
+                </font>
+                </b>
+                </button>
+            </a>&nbsp;  
+            <header>
+                <img src="Images/Logo.jpg" alt="Logo.jpg" class="Logo1"/>
+                <a href="/">
+                    <button class="button1" type="button">
+                    <img src="Images/homelogo.jpg" class="homelogo">
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Home
+                    </font><br>
+                    </b>
+                    </button>
+                </a>&nbsp;
+        
+                <a href="About-Us">
+                    <button class="button2" type="button">
+                    <img src="Images/Abt.png" alt="Logo.jpg" class="abtlogo"/>
+        
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        About Us
+                    </font>
+                    </b>
+                    </button>
+                </a>&nbsp;
+                <div class="Harvbar">
+                <a href="Harvestor">
+                    <button class="HarButton" type="button">
+                    <img src="Images/Harvestor.png" alt="Logo.jpg" class="abtlogo"/>
+        
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Harvestor</font>
+                    </b>
+                    </button>
+                    </a>&nbsp;
+
+                    <div class="HarvContent">
+                    <a href="Harvestor">Borrow</a>
+                    <a href="Harvestor_Lend">Lend</a>
+                </div>
+                    </div>
+                    <div class="Implebar">
+                
+                <a href="Implements">
+                    <button class="ImpleButton" type="button">
+                    <img src="Images/Implements.png" alt="Logo.jpg" class="abtlogo"/>
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Implements
+                    </font>
+                    </b>
+                    </button>
+                </a>&nbsp;
+
+                <div class="ImpleContent">
+                    <a href="Implement_lend">Borrow</a>
+                    <a href="Implements">Lend</a>
+                </div>
+                    </div>
+                    <div class="Tracbar">
+                <a href="Tractor">
+        
+                    <button class="TracButton" type="button">
+                    <img src="Images/Tractor.png" alt="Logo.jpg" class="abtlogo"/>
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Tractor
+                    </font>
+                    </b>
+                    </button>
+                </a>&nbsp;
+
+                    <div class="TracContent">
+                        <a href="Tractor">Borrow</a>
+                        <a href="Tractor_Lend">Lend</a>    
+                    </div>
+                        </div>
+                        <div class="Plantbar">
+
+                <a href="PlantNutrition">
+
+                    <button class="PlantButton" type="button">
+                    <img src="Images/PlantNutrition.png" alt="Logo.jpg" class="abtlogo"/>
+                    
+            <b>
+                <font size="5.75" style="font-family:verdana">
+                    Plant Nutrition
+                </font>
+                </b>
+                </button>
+            </a>&nbsp;
+            <div class="PlantContent">
+                <a href="SoilHealth">Soil Health</a>
+                <a href="Soilissue">Soil Issue</a>
+                <a href="Nutritions">Nutrients</a>
+                <a href="Elements">Element</a>
+                <a href="pesticides">Pesticides</a>
+                <a href="Crops.html">Crops</a>    
+                <a href="Plant_Growth">Plant Growth</a>
+                <a href="Preventation">Preventation</a>
+            </div>
+                </div></header>
+        <br>
+        </header>
+        <br>
+        </header>
+          <h1 class="growth">Plant Growth</h1>
+            <abcd>
+            <img src="../Images/growth.jpg" width="825px" height="250px">
+            <img src="../Images/growth1.jpg" width="825px" height="250px">
+            </abcd>
+            <p class="para2">GROWTH OF PLANTS</p>
+            <p class="para2">Gardening can be a deeply rewarding hobby. It can relieve stress, beautify your home and supply you with fresh food. But growing your plants can be a tricky process. Not all of us are born with green thumbs; we learn the best ways on how to encourage growth of your plants through trial and error. </p>
+            <p class="par">Our landscaping experts at ABC Scapes got their green thumbs from years of experience working with our client’s plants, lawns and gardens. Here’s ten things that they know will help you encourage growth of plants.  </p>
+            <br><br>
+            <h3 class="para1">Preparation Is Key </h3>
+            <p class="para1">The key to growing plants the right way is to make sure that the soil is prepared properly before you start planting. Loosen soil to at least six inches, mix in organic matter such as manure, peat moss or compost, and then level it by raking. Also do your due diligence by researching the plants you want to grow and see what environmental conditions they’ll need to survive and thrive in.  </p>
+            <br><br>
+            <h3 class="para1">Use The Right Fertilizer  </h3>
+            <p class="para1">If you’re trying to grow something very quickly, you’ll want to use a liquid fertilizer. If you’re growing something over a long stretch of time, use a granular fertilizer. Granular fertilizers are coated in a resin that slowly releases nutrients into the soil over time. These are great for flower beds and other long-term projects. Liquid fertilizers tend to be more expensive and need to be used every few weeks to maintain their effectiveness, but they do encourage faster growth than the granular fertilizers are capable of.   </p>
+            <p class="para1">You’ll also want to check to see if the fertilizer you’re using contains plant food. If you’re just growing one type of plant, this won’t be a problem. If you’re growing a variety of different plants close together, you’re better off picking a fertilizer that doesn’t contain plant food. Always check to see what nutrients your plants need most when picking your fertilizer.  </p>
+            <br><br>
+            <h3 class="para1">Soak Seeds In Tea </h3>
+            <p class="para1">One way to encourage seeds to germinate is to soak them in cold tea before planting. The tannins in the tea will soften the casing of the seed, which will make it much easier for your plant to grow. Chamomile tea is especially effective, as it contains anti-fungal properties that reduce “damping off” — a horticultural disease that weakens or kills seeds before they have a chance to germinate.  </p>
+            <br><br>
+            <h3 class="para1">Grow Seedlings Inside </h3>
+            <p class="para1">If you are going to grow plants outside and it isn’t spring yet, try growing your seeds inside. Seedlings take between four to 12 weeks to sprout. If you let the seedlings sprout inside and then transplant them to your garden, the plants will end up growing four to six weeks earlier than if you had planted them directly into the flower bed! There are some plants that will not transplant well, though, so you’ll have to be careful. Beans, beets, zucchini, peas, corn, spinach and turnip don’t transplant very well, while tomatoes, melons, eggplants and peppers take to it quickly.  </p>
+            <br><br>
+            <h3 class="para1">Spice It Up  </h3>
+            <p class="para1">If you want to keep ravenous insects away from your plants, consider growing some curry plants. Most insects tend to avoid these kinds of plants. You can also repel insects away from your plants by periodically sprinkling lines of curry or cayenne pepper on your flower bed. </p>
+            <p class="para1">If you’re having ant problems, you can keep them at bay by growing a lavender bush. Ants hate the aroma of flowering lavender. You can also deal with your ant problems by placing half a squeezed orange on the ground. Wait for the ants to swarm the orange; once you got a large horde on there devouring the citrus, pick it up and leave the fruit in a place with birds nearby. They’ll happily swoop in to take care of your ant problem. </p>
+            <br><br>
+            <h3 class="para1">Support Your Plants  </h3>
+            <p class="para1">As plants flower from seedlings into full-blown adult forms, they may need physical support to help them grow into their maturity. Certain tall flowers and plants may have to be tied to stakes to keep them growing right. You may have to pinch out the centers of young flowering plants to encourage them to have more bushy side-growth. And you might need to prune out branches and leaf clusters that block sunlight from feeding the interior of the plant, or removing faded flower-heads from your bushes to encourage new growth from your plants. </p>
+            <br><br>
+            <h3 class="para1">Take Their Pulse </h3>
+            <p class="para1">Water is the lifeblood of your plants. Too much water can stunt them; not enough will kill them. One way to know if your plant is getting enough water is to stick a spade about 6 to 12 inches into the soil. Pull the soil back and inspect it: if it looks and feel moist, you’re good to go. If it’s bone dry, you’ll need to water your plants immediately. </p>
+            
+        </ul>
+             
+        <p class="foot"></p>
+        </body>
+    </html>

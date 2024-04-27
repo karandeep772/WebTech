@@ -1,0 +1,956 @@
+<!Doctype html>
+<HTML lang="en">
+    <head>
+        <style>
+            body{
+                margin:0px;
+                background-color: rgb(239, 238, 238);
+            }
+            .button1 {
+                position:absolute;
+                right: 1125px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button2 {
+                position:absolute;
+                right: 950px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+
+            }
+            .button3 {
+                position:absolute;
+                right: 765px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+
+            }
+            .button4 {
+                position:absolute;
+                right:550px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button5 {
+                position:absolute;
+                right: 400px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button6 {
+                position:absolute;
+                right: 150px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button7 {
+                position:absolute;  
+                right: 0px;
+                cursor: pointer;
+                margin-top: 20px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                margin-right: 125px;
+            }
+            .button8 {
+                position:absolute;
+                right:139px;
+                cursor: pointer;
+                margin-top: 35px;
+            } 
+            .button9 {
+                position:absolute;
+                right:8px;
+                cursor: pointer;
+                margin-top: 35px;
+            }
+            .button10 {
+                position:absolute;  
+                right: 10px;
+                cursor: pointer;
+                margin-top: 20px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                margin-right: 20px;
+            } 
+            .Logo1 {
+                height: 70px;
+                width: 110px;
+                margin:2px;
+                margin-left:40px;
+                margin-top: 14px;
+                border-radius: 20px;
+                border:1px solid black;
+                position: absolute;
+            }
+            header{
+                background-color: aqua;
+                height:100px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                margin-top:50px; 
+            }
+            .animate-charcter{
+                text-transform: uppercase;
+                background-image: linear-gradient(
+                -225deg,
+                #231557 0%,
+                #44107a 29%,
+                #ff1361 67%,
+                #fff800 100%
+                );
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                color: #fff;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+                display: inline-block;
+                font-size: 28px;
+                margin-top: 22px;
+                margin-bottom: 10px;
+                margin-left: 505px;
+                position:absolute;
+            }
+
+            @keyframes textclip {
+                to {
+                background-position: 200% center;
+                }
+            }
+
+            body {
+                display: absolute;
+                align-items: center;
+                justify-content: center;
+            }
+            .Tranistion {
+                color: #160404;
+                font-family: tahoma;
+                font-size: 28px;
+                text-transform: uppercase;
+                overflow: hidden;
+                position: absolute;
+                width: 575px;
+                margin-left: 575px;
+                margin-top: 20px;
+            }
+
+            h1 span {
+                font-size: 28px;
+                margin-left: 115px;
+                margin-top: 20px;
+            }
+
+            .message {
+                background-color: rgb(244, 228, 84);
+                color: #333;
+                display: block;
+                font-weight: 900px;
+                overflow: hidden;
+                font-size:28px;
+                position: absolute;
+                left: 350px;
+                animation: openclose 5s ease-in-out infinite;
+            }
+
+            .word1, .word2, .word3 {
+                font-family: tahoma;
+            }
+
+            @keyframes openclose {
+                0% {
+                    top: 0rem;
+                    width: 0;
+                }
+                5% {
+                    width: 40px;
+                }
+                15% {
+                    width: 100px;
+                }
+                30% {
+                    top: 0rem;
+                    width: 160px;
+                }
+                33% {       
+                    top: 0rem;
+                    width: 0;
+                }
+                35% {
+                    top: 0rem;
+                    width: 0;
+                }
+                38% {
+                top: -2.1rem;
+    
+                }
+                48% {
+                    top: -2.1rem;
+                    width: 100px;
+                }
+                62% {
+                    top: -2.1rem;
+                    width: 200px;
+                }
+                66% {
+                    top: -2.1rem;
+                    width: 0;
+                    text-indent: 0;
+                }
+                68% {
+                    top: -2.1rem;   
+                    width: 0;
+                    text-indent: 0;
+                }
+                71% {
+                    top: -4.2rem;
+                    width: 0;
+                }
+                80% {
+                    top: -4.2rem;
+                    width: 100px;
+                }
+                95% {
+                    top: -4.2rem;
+                    width: 200px;
+                }
+                98% {
+                    top: -4.2rem;
+                    width: 0;
+                }
+                100% {
+                    top: 0;
+                    width: 0;
+                }
+                }   
+                .homelogo {
+                    height: 21px;
+                    width: 21px;
+                    border-radius: 20px;
+                }
+                .abtlogo{
+                    height: 21px;
+                    width: 21px;
+                }
+                .input{
+                    width:500px;
+                    height:25px;
+                    float:right;
+                    margin-right: 70px;
+            }
+            .H1{
+                margin-left:25px;
+                font-size:px;
+                margin-top: 20px;
+                margin: 0px;
+            }
+            .search{
+                float:right;
+                margin-top: 40px;
+                margin-right: -47px;;
+            }
+            box{
+                border:2px solid black;
+            }
+            .tractors{
+                border:none;
+                border:1px solid rgb(205, 204, 204);
+                margin: 8px;
+                padding: 0px;
+                background-color: white;
+                margin-left: 25px;
+            }
+            main{
+                margin-left: 25px;
+                margin-top: 25px;;
+            }
+            .butimage{
+                padding:20px;
+                margin: 0px;
+                height: 150px;
+                width: 250px;
+            }
+            .book{
+                background-color: rgb(71, 71, 245);
+                height: 30px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+            .book1{
+                margin-bottom: 0px;;
+                margin-top: -20px;
+            }
+            .text:hover{
+                  color:red;
+                  cursor:pointer;
+            }
+            button{
+                cursor: pointer;
+            }
+            .book:hover
+            {
+                background-color: rgb(251, 41, 41);
+            }
+
+            @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+            .waviy {
+                
+                font-size: 20px;
+                margin-top: -10x;
+
+            }
+            .waviy span {
+                font-family: 'Alfa Slab One', simple;
+                position: relative;
+                display: inline-block;
+                color: black;
+                text-transform: uppercase;
+                animation: waviy 1.25s infinite;
+                animation-delay: calc(.1s * var(--i));
+            }
+            @keyframes waviy {
+                0%,50%,100% {
+                transform: translateY(0)
+            }
+                50% {
+                transform: translateY(-20px)
+            }
+            }
+            .ppprice{
+                margin: 0px;
+                font-size: 25px;
+                color:rgb(251, 41, 41)
+            }
+            
+            .HarButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+
+            .Harvbar {
+                
+                right: 760px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .HarvContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .HarvContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .HarvContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Harvbar:hover .HarvContent {
+                display: block;
+            }
+
+            .Harvbar:hover .HarButton {
+                background-color: #3e8e41;
+            }
+            
+            .ImpleButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            
+            .Implebar {
+                
+                right: 550px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .ImpleContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .ImpleContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .ImpleContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Implebar:hover .ImpleContent {
+                display: block;
+            }
+
+            .Implebar:hover .ImpleButton {
+                background-color: #3e8e41;
+            }
+
+            .TracButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            
+            .Tracbar {
+                
+                right: 400px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .TracContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .TracContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .TracContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Tracbar:hover .TracContent {
+                display: block;
+            }
+
+            .Tracbar:hover .TracButton {
+                background-color: #3e8e41;
+            }
+
+            .PlantButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            
+            .Plantbar {
+                
+                right: 150px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .PlantContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .PlantContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .PlantContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Plantbar:hover .PlantContent {
+                display: block;
+            }
+
+            .Plantbar:hover .PlantButton {
+                background-color: #3e8e41;
+            }
+            
+            box{
+                border:2px solid black;
+            }
+            .tractors{
+                border:none;
+                border:1px solid rgb(205, 204, 204);
+                margin: 8px;
+                padding: 0px;
+                background-color: white;
+                margin-left: 0px;
+            }
+            main{
+                margin-left: 550px;
+                margin-top: 125px;;
+            }
+            .butimage{
+                padding:0px;
+                margin: 0px;
+            }
+            .book{
+                background-color: rgb(71, 71, 245);
+                height: 30px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+            .book1{
+                margin-bottom: 0px;;
+                margin-top: -20px;
+            }
+            .text:hover{
+                  color:red;
+                  cursor:pointer;
+            }
+            button{
+                cursor: pointer;
+            }
+            .book:hover
+            {
+                background-color: rgb(251, 41, 41);
+            }
+
+            @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+        .waviy {
+                
+                font-size: 20px;
+                margin-top: -10x;
+
+            }
+            .waviy span {
+                font-family: 'Alfa Slab One', simple;
+                position: relative;
+                display: inline-block;
+                color: black;
+                text-transform: uppercase;
+                animation: waviy 1.25s infinite;
+                animation-delay: calc(.1s * var(--i));
+            }
+            @keyframes waviy {
+                0%,50%,100% {
+                transform: translateY(0)
+            }
+                50% {
+                transform: translateY(-20px)
+            }
+            }
+            form{
+                border:1px solid black;
+                width: 275px;
+                margin-left: 625px;
+                box-shadow: 0px 5px 10px black;
+            }
+            .select{
+                display: flex;
+                margin: 10px;
+                width: 250px;
+                height: 30px;
+                margin-top: 45px;
+            }
+            .info{
+                text-align: center;
+                  font-size: larger;
+                  font-weight: 1000;
+                  background-color: orange;
+                  height: 45px;
+                  margin-top: 0px;
+
+            }
+            .atab{
+                        border: 1px solid rgb(147, 144, 144);
+                        padding: 5px;
+                        text-decoration: none;
+                        margin-top: 50px;
+                        margin-left: 15px;
+                        margin-right: -50px;
+                        background-color: rgb(123, 251, 251);
+                        color: black;
+                }
+                .at{
+                 margin-left:70px;
+                 margin-top: -0px;
+                 margin-bottom:20px ;
+                 padding: 5px;
+                 cursor: pointer;
+                 background-color:rgb(127, 249, 249);
+                 border: 1px solid rgb(147, 144, 144);
+                }
+        </style>
+        <meta charset="UTF-8">
+        <title>
+            Main Page
+            </title>
+            <link rel="icon" href="../Images/Logo.jpg">
+        </head>
+    <body>
+            <div>
+                <div>
+                    <div">
+                        <h3 class="animate-charcter"> Farm Tech:</h3>
+                <h1 class="Tranistion">
+                    <span>Lend/Borrow</span>
+                    <div class="message">
+                      <div class="word1">Tractors</div>
+                      <div class="word2">Implements</div>
+                      <div class="word3">Harvestors</div>
+                    </div>
+                  </h1>
+                    </div>
+                </div>
+            </div>
+            <a href="../Files/Login.html">
+                <button class="button7" type="button">
+                <b> 
+                <font size="4" style="font-family:verdana">
+                    Login
+                </font>
+                </b>
+                </button>
+            </a>&nbsp;
+                        <a href="../Files/Register.html">
+                <button class="button10" type="button">
+                <b> 
+                <font size="4" style="font-family:verdana">
+                    Sign in
+                </font>
+                </b>
+                </button>
+            </a>&nbsp;  
+            <header>
+                <img src="../Images/Logo.jpg" alt="Logo.jpg" class="Logo1"/>
+                <a href="../index.html">
+                    <button class="button1" type="button">
+                    <img src="../Images/homelogo.jpg" class="homelogo">
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Home
+                    </font><br>
+                    </b>
+                    </button>
+                </a>&nbsp;
+        
+                <a href=../Files/About-Us.html>
+                    <button class="button2" type="button">
+                    <img src="../Images/Abt.png" alt="Logo.jpg" class="abtlogo"/>
+        
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        About Us
+                    </font>
+                    </b>
+                    </button>
+                </a>&nbsp;
+                <div class="Harvbar">
+                <a href="../Files/Harvestor.html">
+                    <button class="HarButton" type="button">
+                    <img src="../Images/Harvestor.png" alt="Logo.jpg" class="abtlogo"/>
+        
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Harvestor</font>
+                    </b>
+                    </button>
+                    </a>&nbsp;
+
+                    <div class="HarvContent">
+                    <a href="../Files/Harvestor.html">Borrow</a>
+                    <a href="../Files/Harvestor_Lend.html">Lend</a>
+                </div>
+                    </div>
+                    <div class="Implebar">
+                
+                <a href="../Files/Implements.html">
+                    <button class="ImpleButton" type="button">
+                    <img src="../Images/Implements.png" alt="Logo.jpg" class="abtlogo"/>
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Implements
+                    </font>
+                    </b>
+                    </button>
+                </a>&nbsp;
+
+                <div class="ImpleContent">
+                    <a href="../Files/Implements.html">Borrow</a>
+                    <a href="../Files/Implement_Lend.html">Lend</a>
+                </div>
+                    </div>
+                    <div class="Tracbar">
+                <a href="../Files/Tractor.html">
+        
+                    <button class="TracButton" type="button">
+                    <img src="../Images/Tractor.png" alt="Logo.jpg" class="abtlogo"/>
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Tractor
+                    </font>
+                    </b>
+                    </button>
+                </a>&nbsp;
+
+                    <div class="TracContent">
+                        <a href="../Files/Tractor.html">Borrow</a>
+                        <a href="../Files/Tractor_Lend.html">Lend</a>    
+                    </div>
+                        </div>
+                        <div class="Plantbar">
+
+                <a href="../Files/PlantNutrition.html">
+
+                    <button class="PlantButton" type="button">
+                    <img src="../Images/PlantNutrition.png" alt="Logo.jpg" class="abtlogo"/>
+                    
+            <b>
+                <font size="5.75" style="font-family:verdana">
+                    Plant Nutrition
+                </font>
+                </b>
+                </button>
+            </a>&nbsp;
+            <div class="PlantContent">
+                <a href="../Files/SoilHealth.html">Soil Health</a>
+                <a href="../Files/Soilissue.html">Soil Issue</a>
+                <a href="../Files/Nutritions.html">Nutrients</a>
+                <a href="../Files/Elements.html">Element</a>
+                <a href="../Files/pesticides.html">Pesticides</a>
+                <a href="../Files/Crops.html">Crops</a>    
+                <a href="../Files/Plant_Growth.html">Plant Growth</a>
+                <a href="../Files/Preventation.html">Preventation</a>
+            </div>
+                </div>      
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <form>
+            <p class="info">Information - Implements</p>
+        <select id="ImplementsName" name="ImplementsName" class="select">
+            <option value="Select Device">Select Device</option>    
+            <option value="Rotavator">Rotavator</option>
+            <option value="Plough">Plough</option>
+            <option value="Cultivator">Cultivator</option>
+            <option value="Tractor Mounted Sprayer">Tractor Mounted Sprayer</option>
+            <option value="Thresher">Thresher</option>
+            <option value="Harrow">Harrow</option>
+            <option value="Disc Harrow">Disc Harrow</option>
+            <option value="Baller">Baller</option>
+            <option value="Laser Land Leveler">Laser Land Leveler</option>
+            <option value="Tractor Trailer">Tractor Trailer</option>
+            <option value="Mulcher">Mulcher</option>
+            <option value="Power Harrow">Power Harrow</option>
+            <option value="Power Tiller">Power Tiller</option>
+            <option value="Seed Cum Fertilizer Drill">Seed Cum Fertilizer Drill</option>
+            <option value="Roto Seed Drill">Roto Seed Drill</option>
+            <option value="Precision Planter">Precision Planter</option>
+            <option value="Disc Plough">Disc Plough</option>
+            <option value="Power Weeder">Power Weeder</option>
+            <option value="Post Hole Diggers">Post Hole Diggers</option>
+            <option value="Straw Reaper">Straw Reaper</option>
+            <option value="Super Seeder">Super Seeder</option>
+            <option value="Seed Drill">Seed Drill</option>
+            <option value="Ridger">Ridger</option>
+            <option value="Land Leveller">Land Leveller</option>
+            <option value="Rice Transplanter">Rice Transplanter</option>
+            <option value="Repears">Repears</option>	
+            <option value="Transplanter">Transplanter</option>
+            <option value="Slasher">Slasher</option>
+            <option value="Subsoiler">Subsoiler</option>
+            <option value="Hey Rake">Hey Rake</option>
+            <option value="Potato Planter">Potato Planter</option>
+            <option value="Happy Seeder">Happy Seeder</option>
+            <option value="Shredder">Shredder</option>
+            <option value="Dozer/Blade">Dozer/Blade</option>
+            <option value="Fertilizer Broadcaster">Fertilizer Broadcaster</option>
+            <option value="Spreader">Spreader</option>
+            <option value="Rotary Tiller">Rotary Tiller</option>
+            <option value="Boom Sprayer">Boom Sprayer</option>
+            <option value="Mini Rotary Tiller">Mini Rotary Tiller</option>
+            <option value="Chopper">Chopper</option>
+            <option value="Front End Loaders">Front End Loaders</option>
+            <option value="Grooming Mower">Grooming Mower</option>
+            <option value="Spray Pump">Spray Pump</option>
+            </select>
+            <select class="select">
+                <option value="Select Company">Select Company</option>
+                <option value="Agripro">Agripro</option>
+                <option value="Agristar">Agristar</option>
+                <option value="Bakshish">Bakshish</option>
+                <option value="Bullz Power">Bullz Power</option>
+                <option value="Captain">Captain</option>
+                <option value="CAT">CAT</option>
+                <option value="Claas">Claas</option>
+                <option value="Dasmesh">Dasmesh</option>
+                <option value="Farmking">Farmking</option>
+                <option value="Fieldking">Fieldking</option>
+                <option value="Gahir">Gahir</option>
+                <option value="Garud">Garud</option>
+                <option value="Greaves Cotton">Greaves Cotton</option>
+                <option value="Hind Agro">Hind Agro</option>
+                <option value="Honda">Honda</option>
+                <option value="Indo Farm">Indo Farm</option>
+                <option value="Jagatjit">Jagatjit</option>
+                <option value="John Deere">John Deere</option>
+                <option value="Kartar">Kartar</option>
+                <option value="Khedut">Khedut</option>
+                <option value="KMW By Kirloskar">KMW By Kirloskar</option>
+                <option value="KS Group">KS Group</option>
+                <option value="Kubota">Kubota</option>
+                <option value="LandForce">LandForce</option>
+                <option value="Lemken">Lemken</option>
+                <option value="Mahindra">Mahindra</option>
+                <option value="Malkit">Malkit</option>
+                <option value="Maschio Gaspardo">Maschio Gaspardo</option>
+                <option value="MITRA">MITRA</option>
+                <option value="Neptune">Neptune</option>
+                <option value="New Holland">New Holland</option>
+                <option value="Pagro">Pagro</option>
+                <option value="Shaktiman">Shaktiman</option>
+                <option value="Shrachi">Shrachi</option>
+                <option value="Soil Master">Soil Master</option>
+                <option value="SoilTech">SoilTech</option>
+                <option value="Solis">Solis</option>
+                <option value="Sonalika">Sonalika</option>
+                <option value="Stihl">Stihl</option>
+                <option value="Swaraj">Swaraj</option>
+                <option value="Universal">Universal</option>
+                <option value="Vishal">Vishal</option>
+                <option value="VST">VST</option>
+                <option value="Yanmar">Yanmar</option>
+                </select>
+                <select id="Com" name="Com" class="select">
+                    <option value="">Year of Purchase</option>
+                    <option value="1991">1991</option>
+                    <option value="1992">1992</option>
+                    <option value="1993">1993</option>
+                    <option value="1994">1994</option>
+                    <option value="1995">1995</option>  
+                    <option value="1997">1996</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                </select>
+                <input type="submit" value="submit" class="at">
+                <a href="Implement-Step3.html" class="atab">Next&nbsp;&nbsp;></a>
+        </form>
+        
+        
+        </body>
+    </html>

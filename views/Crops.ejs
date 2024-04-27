@@ -1,0 +1,767 @@
+
+<!Doctype html>
+<HTML lang="en">
+    <head>
+        <style>
+            body{
+                margin:0px;
+            }
+            .button1 {
+                position:absolute;
+                right: 1125px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button2 {
+                position:absolute;
+                right: 950px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+
+            }
+            .button3 {
+                position:absolute;
+                right: 765px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+
+            }
+            .button4 {
+                position:absolute;
+                right:550px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button5 {
+                position:absolute;
+                right: 400px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button6 {
+                position:absolute;
+                right: 150px;
+                cursor: pointer;
+                margin-top: 35px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            .button7 {
+                position:absolute;  
+                right: 0px;
+                cursor: pointer;
+                margin-top: 20px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                margin-right: 125px;
+            }
+            .button8 {
+                position:absolute;
+                right:139px;
+                cursor: pointer;
+                margin-top: 35px;
+            } 
+            .button9 {
+                position:absolute;
+                right:8px;
+                cursor: pointer;
+                margin-top: 35px;
+            }
+            .button10 {
+                position:absolute;  
+                right: 10px;
+                cursor: pointer;
+                margin-top: 20px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+                margin-right: 20px;
+            } 
+            .Logo1 {
+                height: 70px;
+                width: 110px;
+                margin:2px;
+                margin-left:50px ;
+                margin-top: 14px;
+                border-radius: 20px;
+                border:1px solid black;
+                position: absolute;
+            }
+            header{
+                background-color: aqua;
+                height:100px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                margin-top:50px; 
+            }
+            .animate-charcter{
+                text-transform: uppercase;
+                background-image: linear-gradient(
+                -225deg,
+                #231557 0%,
+                #44107a 29%,
+                #ff1361 67%,
+                #fff800 100%
+                );
+                background-size: auto auto;
+                background-clip: border-box;
+                background-size: 200% auto;
+                color: #fff;
+                background-clip: text;
+                /* text-fill-color: transparent; */
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                animation: textclip 2s linear infinite;
+                display: inline-block;
+                font-size: 28px;
+                margin-top: 22px;
+                margin-bottom: 10px;
+                margin-left: 505px;
+                position:absolute;
+            }
+
+            @keyframes textclip {
+                to {
+                background-position: 200% center;
+                }
+            }
+
+            body {
+                display: absolute;
+                align-items: center;
+                justify-content: center;
+            }
+            h1 {
+                color: #160404;
+                font-family: tahoma;
+                font-size: 28px;
+                /* font-weight 900px; */
+                text-transform: uppercase;
+                overflow: hidden;
+                position: absolute;
+                width: 575px;
+                margin-left: 575px;
+                margin-top: 20px;
+            }
+
+            h1 span {
+                font-size: 28px;
+                margin-left: 115px;
+                margin-top: 20px;
+            }
+
+            .message {
+                background-color: rgb(244, 228, 84);
+                color: #333;
+                display: block;
+                font-weight: 900px;
+                overflow: hidden;
+                font-size:28px;
+                position: absolute;
+                left: 350px;
+                animation: openclose 5s ease-in-out infinite;
+            }
+
+            .word1, .word2, .word3 {
+                font-family: tahoma;
+            }
+
+            @keyframes openclose {
+                0% {
+                    top: 0rem;
+                    width: 0;
+                }
+                5% {
+                    width: 40px;
+                }
+                15% {
+                    width: 100px;
+                }
+                30% {
+                    top: 0rem;
+                    width: 160px;
+                }
+                33% {       
+                    top: 0rem;
+                    width: 0;
+                }
+                35% {
+                    top: 0rem;
+                    width: 0;
+                }
+                38% {
+                top: -2.1rem;
+    
+                }
+                48% {
+                    top: -2.1rem;
+                    width: 100px;
+                }
+                62% {
+                    top: -2.1rem;
+                    width: 200px;
+                }
+                66% {
+                    top: -2.1rem;
+                    width: 0;
+                    text-indent: 0;
+                }
+                68% {
+                    top: -2.1rem;   
+                    width: 0;
+                    text-indent: 0;
+                }
+                71% {
+                    top: -4.2rem;
+                    width: 0;
+                }
+                80% {
+                    top: -4.2rem;
+                    width: 100px;
+                }
+                95% {
+                    top: -4.2rem;
+                    width: 200px;
+                }
+                98% {
+                    top: -4.2rem;
+                    width: 0;
+                }
+                100% {
+                    top: 0;
+                    width: 0;
+                }
+                }   
+                .homelogo {
+                    height: 21px;
+                    width: 21px;
+                    border-radius: 20px;
+                }
+                .abtlogo{
+                    height: 21px;
+                    width: 21px;
+                }
+                .input{
+                    width:500px;
+                    height:25px;
+                    float:right;
+                    margin-right: 70px;
+            }
+            .H1{
+                margin-left:580px;
+                font-size:px;
+                margin-top: 20px;
+            }
+            .search{
+                float:right;
+                margin-top: 40px;
+                margin-right: -47px;;
+            }
+            box{
+                border:2px solid black;
+            }
+            .tractors{
+                border:none;
+                border:1px solid rgb(205, 204, 204);
+                margin: 8px;
+                padding: 0px;
+                background-color: white;
+                margin-left: 0px;
+            }
+            main{
+                margin-left: 130px;
+                margin-top: 50px;
+            }
+            .butimage{
+                padding:0px;
+                margin: 0px;
+            }
+            .book{
+                background-color: rgb(71, 71, 245);
+                height: 30px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+            .book1{
+                margin-bottom: 0px;;
+                margin-top: -20px;
+            }
+            .text:hover{
+                  color:red;
+                  cursor:pointer;
+            }
+            button{
+                cursor: pointer;
+            }
+            .book:hover
+            {
+                background-color: rgb(251, 41, 41);
+            }
+
+            @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+        .waviy {
+                
+                font-size: 20px;
+                margin-top: -10x;
+
+            }
+            .waviy span {
+                font-family: 'Alfa Slab One', simple;
+                position: relative;
+                display: inline-block;
+                color: black;
+                text-transform: uppercase;
+                animation: waviy 1.25s infinite;
+                animation-delay: calc(.1s * var(--i));
+            }
+            @keyframes waviy {
+                0%,50%,100% {
+                transform: translateY(0)
+            }
+                50% {
+                transform: translateY(-20px)
+            }
+            }
+            
+            .crop{
+                    background-color: rgb(54, 217, 45);
+                    height: 100px;
+                    text-align: center;
+                    color:white;
+                    margin-top: 0px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    width: 1520px;
+                 }
+                 abcd{
+                    display: flex;
+                    margin-top: 100px;
+
+                }
+                .para2{
+                    text-align: center;
+                    margin-left: 100px;
+                    margin-right:100px ;
+                    font-size: larger;
+                    margin-top: 75px;
+                }
+                .para1{
+                    text-align: left;
+                    margin-left: 100px;
+                    margin-right:100px ;
+                    font-size: larger;
+                    margin-top: 30px;
+                }
+                .foot{
+                    background-color:rgb(70, 226, 65) ;
+                    height: 30px;
+                    margin-bottom: 0px;
+                } .HarButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+
+            .Harvbar {
+                
+                right: 760px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .HarvContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .HarvContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .HarvContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Harvbar:hover .HarvContent {
+                display: block;
+            }
+
+            .Harvbar:hover .HarButton {
+                background-color: #3e8e41;
+            }
+            
+            .ImpleButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            
+            .Implebar {
+                
+                right: 550px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .ImpleContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .ImpleContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .ImpleContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Implebar:hover .ImpleContent {
+                display: block;
+            }
+
+            .Implebar:hover .ImpleButton {
+                background-color: #3e8e41;
+            }
+
+            .TracButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            
+            .Tracbar {
+                
+                right: 400px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .TracContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .TracContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .TracContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Tracbar:hover .TracContent {
+                display: block;
+            }
+
+            .Tracbar:hover .TracButton {
+                background-color: #3e8e41;
+            }
+
+            .PlantButton {
+                color: black;
+                padding: 4px;
+                font-size: 16px;
+                margin-top: 33px;
+                border-bottom:1px solid rgb(0, 0, 0);
+                border-top: 1px solid rgb(0, 0, 0);
+                border-left: 1px solid rgb(0, 0, 0);
+                border-right: 1px solid rgb(0, 0, 0);
+                border-radius: 20px;
+            }
+            
+            .Plantbar {
+                
+                right: 150px;
+                position: absolute;
+                display: inline-block;
+            }
+
+            .PlantContent {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                text-align: center  ;
+            }
+
+            .PlantContent a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .PlantContent a:hover {
+                background-color: #ddd;
+            }
+
+            .Plantbar:hover .PlantContent {
+                display: block;
+            }
+
+            .Plantbar:hover .PlantButton {
+                background-color: #3e8e41;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <title>
+            Main Page
+            </title>
+            <link rel="icon" href="Logo.jpg">
+        </head>
+    <body>
+            <div>
+                <div>
+                    <div">
+                        <h3 class="animate-charcter"> Farm Tech:</h3>
+                <h1>
+                    <span>Lend/Borrow</span>
+                    <div class="message">
+                      <div class="word1">Tractors</div>
+                      <div class="word2">Implements</div>
+                      <div class="word3">Harvestors</div>
+                    </div>
+                  </h1>
+                    </div>
+                </div>
+            </div>
+           
+            <a href="Login">
+                <button class="button7" type="button">
+                <b> 
+                <font size="4" style="font-family:verdana">
+                    Login
+                </font>
+                </b>
+                </button>
+            </a>&nbsp;
+                        <a href="Register">
+                <button class="button10" type="button">
+                <b> 
+                <font size="4" style="font-family:verdana">
+                    Sign in
+                </font>
+                </b>
+                </button>
+            </a>&nbsp;  
+            <header>
+                <img src="Images/Logo.jpg" alt="Logo.jpg" class="Logo1"/>
+                <a href="/">
+                    <button class="button1" type="button">
+                    <img src="Images/homelogo.jpg" class="homelogo">
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Home
+                    </font><br>
+                    </b>
+                    </button>
+                </a>&nbsp;
+        
+                <a href="About-Us">
+                    <button class="button2" type="button">
+                    <img src="Images/Abt.png" alt="Logo.jpg" class="abtlogo"/>
+        
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        About Us
+                    </font>
+                    </b>
+                    </button>
+                </a>&nbsp;
+                <div class="Harvbar">
+                <a href="Harvestor">
+                    <button class="HarButton" type="button">
+                    <img src="Images/Harvestor.png" alt="Logo.jpg" class="abtlogo"/>
+        
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Harvestor</font>
+                    </b>
+                    </button>
+                    </a>&nbsp;
+
+                    <div class="HarvContent">
+                    <a href="Harvestor">Borrow</a>
+                    <a href="Harvestor_Lend">Lend</a>
+                </div>
+                    </div>
+                    <div class="Implebar">
+                
+                <a href="Implements">
+                    <button class="ImpleButton" type="button">
+                    <img src="Images/Implements.png" alt="Logo.jpg" class="abtlogo"/>
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Implements
+                    </font>
+                    </b>
+                    </button>
+                </a>&nbsp;
+
+                <div class="ImpleContent">
+                    <a href="Implement_lend">Borrow</a>
+                    <a href="Implements">Lend</a>
+                </div>
+                    </div>
+                    <div class="Tracbar">
+                <a href="Tractor">
+        
+                    <button class="TracButton" type="button">
+                    <img src="Images/Tractor.png" alt="Logo.jpg" class="abtlogo"/>
+                    <b>
+                    <font size="5.75" style="font-family:verdana">
+                        Tractor
+                    </font>
+                    </b>
+                    </button>
+                </a>&nbsp;
+
+                    <div class="TracContent">
+                        <a href="Tractor">Borrow</a>
+                        <a href="Tractor_Lend">Lend</a>    
+                    </div>
+                        </div>
+                        <div class="Plantbar">
+
+                <a href="PlantNutrition">
+
+                    <button class="PlantButton" type="button">
+                    <img src="Images/PlantNutrition.png" alt="Logo.jpg" class="abtlogo"/>
+                    
+            <b>
+                <font size="5.75" style="font-family:verdana">
+                    Plant Nutrition
+                </font>
+                </b>
+                </button>
+            </a>&nbsp;
+            <div class="PlantContent">
+                <a href="SoilHealth">Soil Health</a>
+                <a href="Soilissue">Soil Issue</a>
+                <a href="Nutritions">Nutrients</a>
+                <a href="Elements">Element</a>
+                <a href="pesticides">Pesticides</a>
+                <a href="Crops.html">Crops</a>    
+                <a href="Plant_Growth">Plant Growth</a>
+                <a href="Preventation">Preventation</a>
+            </div>
+                </div>
+            </header>
+        <br>
+        </header>
+          <h1 class="crop">Crops</h1>
+            <abcd>
+            <img src="../Images/crop.jpg" width="825px" height="250px">
+            <img src="../Images/crop1.jpg" width="825px" height="250px">
+            </abcd>
+            <p class="para2">Cropping Seasons in India  </p>
+            <p class="para2">India ranks second in the world when it comes to arable land. With 394.6 million acres of agricultural land, India grows the following crops; to name a few; in massive quantities: </p>
+            <ul>
+                <li class="para1">Rice</li>
+                <li class="para1">Wheat</li>
+                <li class="para1">Cotton</li>
+                <li class="para1">Sugar Cane</li>
+                <li class="para1">Fruit and vegetables of various kinds </li>
+                <li class="para1">Maize </li>
+            </ul>
+            <h2 class="para2">Every crop has its own distinct processes of planting, harvesting, and processing. But, broadly speaking, each crop can be differentiated according to cropping season. And in India, there are three main cropping seasons: </h2>
+            <ul>
+                <li class="para1">Kharif</li>
+                <li class="para1">Rabi</li>
+                <li class="para1">Zaid</li>
+            </ul>
+             <br><br>
+            <p class="para1">Kharif Crops</p>
+            <p class="para1">Interestingly, the word ‘Kharif’ means autumn in Arabic and this best denotes the season for Kharif crops too! Also known as monsoon crops, Kharif crops are sown at the start of the monsoon season and harvested at the end of the same. Typically, this period ranges from May to October, give or take a month or so, depending on the crop.  Zaid crops also help the farmers make money on produce such as melons of various kinds, pumpkins, and cucumber. These seasonal fruits are mostly grown in the Gangetic belts of India. Fodder crops are examples of Zaid crops too.</p>
+            <br>
+            <p class="para1">Rabi Crops</p>
+            <p class="para1">Rabi crops are planted around the October or middle of November, well after the rainy season. The crops are harvested in April or May, depending on the type of crop. The word ‘Rabi’ comes from Arabic for spring. They are also known as winter crops. India grows Rabi crops such as wheat, mustard, barley, peas, chickpea, cumin, fennel, Coriander, and gram to name a few. States such as Jammu & Kashmir, Uttar Pradesh, Punjab, Himachal Pradesh, and Uttarakhand are a few of the states that lead in Rabi crop production. Uttar Pradesh is the largest producer of wheat followed by Haryana and Punjab</p>
+            <br>
+            <p class="para1">Zaid Crops</p>
+            <p class="para1">Summer belongs to the Zaid crops! They are sometimes known as the ‘filler’ crops between Rabi & Kharif. Typically, the crops are planted in March and harvested in June. This is a short season, but Zaid crops need warm, dry weather, and mature early as well.</p>
+
+        </ul>
+             
+        <p class="foot"></p>
+        </body>
+    </html>
